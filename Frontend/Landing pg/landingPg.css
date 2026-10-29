@@ -1,0 +1,67 @@
+.carousel-item img {
+  width: 100%;
+  height: calc(100vh - 56px); /* screen height minus navbar */
+  object-fit: cover;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 0;        /* space between carousel and heading, and below the section */
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 32px;    /* gap between heading and paragraph */
+}
+
+.hero p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #cbd2e6;
+  margin-bottom: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.dash-card {
+  max-width: 1200px;      /* card size, try 600px or 800px */
+  margin: 48px auto;     /* auto centers it, 48px is space above and below */
+  border: 0;
+}
+
+.op-badge {
+  font-size: 1.1rem;     /* text size, try 1.3rem for bigger */
+  padding: 12px 28px;    /* makes the pill itself larger */
+}
+
+.hero-tight {
+  padding-top: 0;    /* removes the big gap above the heading */
+}
+
+.info-card {
+  background: #0d1330;          /* navy, matches your dashboard card */
+  color: #fff;
+  border: 1px solid #2b3350;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.info-card .card-text {
+  color: #cbd2e6;               /* soft white for the smaller text */
+}
+
+.pill-spaced {
+  padding-top: 80px;   /* same as .hero's bottom padding */
+}
+
+.footer-dark {
+  background: #0a0f24;
+  border-top: 1px solid #1e6bff;
+  margin-top: 80px;      /* space above the footer */
+}

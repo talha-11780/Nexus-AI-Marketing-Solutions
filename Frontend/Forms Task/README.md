@@ -1,0 +1,2 @@
+# Forms-of-Nexus-AI-Marketing-Solutions-Website
+Collection of 12 responsive forms built with React, Bootstrap 5.3, and custom CSS, covering 3 stakeholders: End User (Login, Contact Us, Feedback), Marketing Team (Campaign Creation, Content Approval, Post Scheduler), and Admin. Built to practice form design, validation elements, and reusable styling with Vite.

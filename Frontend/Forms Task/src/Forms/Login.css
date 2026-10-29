@@ -1,0 +1,25 @@
+.login-card {
+  max-width: 420px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+.card.login-card .form-control {
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.login-card .form-text {
+  color: #aaa;
+}
+
+.login-btn {
+  background: #8b5cf6;
+  color: #fff;
+}
+
+.login-card p.text-muted {
+  color: #aaa !important;
+}
